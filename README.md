@@ -41,3 +41,6 @@ Process scheduling:
 	bash script - crontab/run_seb_api_app.sh
 	schedulet every monday at 9:00  - 0 9 * * MON /home/ricardas/test/seb_api_app/crontab/run_seb_api_app.sh
 	run on demand: execute main.py
+
+SQL queries for testing: 
+	Assignment 2: Homework/example_queries.sql
