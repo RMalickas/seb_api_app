@@ -14,7 +14,7 @@ except:
 cur = conn.cursor()
 
 #open log file
-log = open("logs/log_{}.txt".format(strftime("%Y%m%d_%H%M%S", gmtime())), "w")
+log = open("/home/ricardas/test/seb_api_app/logs/log_{}.txt".format(strftime("%Y%m%d_%H%M%S", gmtime())), "w")
 
 
 
