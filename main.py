@@ -39,7 +39,9 @@ denorm_character_data = transform.dict_to_list(denorm_character_data_2)
 
 trf_char = transform.Transform(denorm_character_data)
 character_actor_dictionary = dict(trf_char.key_values(3))
+#print(character_actor_dictionary) 
 character_to_actor = trf_char.relate_entities(character_actor_dictionary, 3)
+#print(character_to_actor) 
 character_title_dictionary = dict(trf_char.key_values(2))
 character_to_title = trf_char.relate_entities(character_title_dictionary, 2)
 

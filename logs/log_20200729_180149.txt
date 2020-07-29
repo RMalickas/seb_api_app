@@ -1,0 +1,99 @@
+Cleaning database
+success, database prepared
+Requesting characters data. page size - 1
+Downloaded 1 page
+Downloaded 2 page
+Downloaded 3 page
+Downloaded 4 page
+Downloaded 5 page
+Downloaded 6 page
+Downloaded 7 page
+Downloaded 8 page
+Downloaded 9 page
+Downloaded 10 page
+Downloaded 11 page
+Downloaded 12 page
+Downloaded 13 page
+Downloaded 14 page
+Downloaded 15 page
+Downloaded 16 page
+Downloaded 17 page
+Downloaded 18 page
+Downloaded 19 page
+Downloaded 20 page
+Downloaded 21 page
+Downloaded 22 page
+Downloaded 23 page
+Downloaded 24 page
+Downloaded 25 page
+Downloaded 26 page
+Downloaded 27 page
+Downloaded 28 page
+Downloaded 29 page
+Downloaded 30 page
+Downloaded 31 page
+Downloaded 32 page
+Downloaded 33 page
+Downloaded 34 page
+Downloaded 35 page
+Downloaded 36 page
+Downloaded 37 page
+Downloaded 38 page
+Downloaded 39 page
+Downloaded 40 page
+Downloaded 41 page
+Downloaded 42 page
+Downloaded 43 page
+Total 2134 records received related to characters
+Extracting character data
+Denormalizing Characters data
+Characters data denormalization. Input 2134 records, output 2568 records
+Denormalizing Characters data
+Characters data denormalization. Input 2568 records, output 2595 records
+Inserting list into characters table
+Success, inserted 2134 records
+Inserting list into actors table
+Success, inserted 209 records
+Inserting list into character_to_actor table
+Success, inserted 211 records
+Inserting list into titles table
+Success, inserted 510 records
+Inserting list into character_to_title table
+Success, inserted 1520 records
+Requesting books data. page size - 1
+Downloaded 1 page
+Total 12 records received related to books
+Denormalizing Books data
+Books data denormalization. Input 12 records, output 14 records
+Denormalizing Books data
+Books data denormalization. Input 14 records, output 5452 records
+Extracting books data
+Inserting list into books table
+Success, inserted 12 records
+Inserting list into authors table
+Success, inserted 3 records
+Inserting list into book_to_author table
+Success, inserted 14 records
+Inserting list into book_to_character table
+Success, inserted 4921 records
+Requesting houses data. page size - 1
+Downloaded 1 page
+Downloaded 2 page
+Downloaded 3 page
+Downloaded 4 page
+Downloaded 5 page
+Downloaded 6 page
+Downloaded 7 page
+Downloaded 8 page
+Downloaded 9 page
+Total 444 records received related to houses
+Denormalizing Houses data
+Houses data denormalization. Input 444 records, output 1714 records
+Extracting houses data
+Extracting overlord data
+Inserting list into houses table
+Success, inserted 444 records
+Updating houses table with parent keys
+Success, inserted 397 records
+Inserting list into sworn_member table
+Success, inserted 1567 records

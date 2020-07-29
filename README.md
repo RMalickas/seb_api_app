@@ -21,8 +21,8 @@ names. (provide example query)
 
 
 To solve given problem selected techologies:
-	DataBase - PostgreSQL
-	ETL - Python
+	DataBase - PostgreSQL 10
+	ETL - Python 3
 	OS - Linux
 	Process scheduling - Crontab
 
